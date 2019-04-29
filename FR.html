@@ -1,0 +1,69 @@
+<!--Austin Halfacre, this page is the Field report page, as well as the svg and canvas element-->
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Fields Report</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+
+
+				<!-- Header -->
+					<header id="header">
+						<a href="index.html" class="logo">Field Report</a>
+					</header>
+
+				<!-- Main -->
+					<div id="main">
+
+							<canvas id="myCanvas" width="1000" height="100" style="border:0px solid #d3d3d3;">
+								</canvas>
+								  
+								<script>
+								var c = document.getElementById("myCanvas");
+								var ctx = c.getContext("2d");
+								ctx.font = "30px Arial";
+								ctx.fillText("Hello Visitor, Welcome To My Page",10,50);
+								</script>
+
+						<!-- Post -->
+							<section class="post">
+								<header class="major">
+									<span class="date">April 20, 2019</span>
+									<h1>Fields Report</h1>
+									<p>Hey mom and dad, I thought I’d write you really quick to update you about my career thoughts.
+										Computer science is the study of programming languages, date structures, algorithms and more. The whole idea of computer science is that it’s the nuts and bolts of programming. Software engineering is the art of constructing and designing software systems. This includes the design, implantation, testing and delivery. Information technology is the field of study on management of a data center. Information technologists do programming and work closely with software engineers to make new systems, but they focus mainly on operations and maintenance.
+										Three fields of computer science that peek my interest are database administrator, information security analyst and computer/information systems manager. A database administrator is supposed to analyze and evaluate the data needs of users. They develop and improve data resources to store and retrieve critical information. They also need exceptionally high problem-solving skill of computer science to correct any malfunctions a database may have. He also modifies the system as the needs of the user evolves overtime. An information security analyst is supposed to create systems to protect information networks and websit3es from cyber-attacks and other security breaches. Some of their responsibilities include researching trends in data security to anticipate problems and install systems to help prevent those issues before they occur. Just like the database administrator, the information security analyst needs very high problem-solving skill of computer science to investigate any breaches that may occur, determine the causes of the breach and how to modify, or fix, the security system. The computer systems analyst is supposed to analyst a company’s technology needs and oversee the implantation of new and appropriate data systems. They also need to be able to evaluate hardware, software, networking, and other technology resources for purchases and or development. Because computer and information systems managers hire, train and supervise staff, the managers must have interpersonal skills. 
+										The field of compute science that appeals to me the most would be the information security analyst. Being able to protect computer networks at companies and government agencies really peek my interest. The average yearly pay is ninety-five thousand five hundred and ten dollars a year with the hourly pay being around forty-six dollars an hour. An interesting thing to note is that the job outlook is projected to have an increase of twenty eight percent in information security analyst jobs. There are currently around one hundred thousand jobs being fulfilled by people and that proves to show that there are multiple jobs that I could get being an information security analyst.
+									</p>
+								</header>
+
+								<svg width="800" height="600">
+									<rect id="rec" x="300" y="100" width="300" height="50" style="fill:lime"> 
+									  <animate attributeName="x" attributeType="XML" begin="0s" dur="6s" fill="freeze" from="300" to="0" /> 
+									  <animate attributeName="y" attributeType="XML" begin="0s" dur="6s" fill="freeze" from="100" to="0" /> 
+									  <animate attributeName="width" attributeType="XML" begin="0s" dur="6s" fill="freeze" from="300" to="800" /> 
+									  <animate attributeName="height" attributeType="XML" begin="0s" dur="6s" fill="freeze" from="100" to="300" /> 
+									  <animate attributeName="fill" attributeType="CSS" from="lime" to="red" begin="2s" dur="4s" fill="freeze" />
+									</rect>
+									<g transform="translate(100,100)"> 
+									  <text id="TextElement" x="0" y="0" style="font-family:Verdana;font-size:8; visibility:hidden"> How does one use SVG properly?
+										<set attributeName="visibility" attributeType="CSS" to="visible" begin="1s" dur="5s" fill="freeze" />
+										<animateMotion path="M 0 0 L 100 100" begin="1s" dur="5s" fill="freeze" />
+										<animate attributeName="fill" attributeType="CSS" from="red" to="blue" begin="1s" dur="5s" fill="freeze" /> 
+										<animateTransform attributeName="transform" attributeType="XML" type="rotate" from="-30" to="0" begin="1s" dur="5s" fill="freeze" /> 
+										<animateTransform attributeName="transform" attributeType="XML" type="scale" from="1" to="3" additive="sum" begin="1s" dur="5s" fill="freeze" /> 
+									  </text> 
+									</g>
+								  </svg>
+
+							</section>
+
+					</div>
+
+				
+	
+</html>
